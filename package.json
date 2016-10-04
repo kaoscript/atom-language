@@ -1,19 +1,24 @@
 {
-	"name": "language-kaoscript",
-	"version": "0.1.0",
-	"description": "kaoscript language support in Atom",
-	"keywords": ["kaoscript", "language", "grammar", "syntax"],
-	"engines": {
-		"atom": "*",
-		"node": "*"
-	},
-	"homepage": "https://atom.io/packages/language-kaoscript",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/kaoscript/atom-language.git"
-	},
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/kaoscript/atom-language/issues"
-	}
+  "name": "language-kaoscript",
+  "version": "0.2.0",
+  "description": "kaoscript language support in Atom",
+  "keywords": [
+    "kaoscript",
+    "language",
+    "grammar",
+    "syntax"
+  ],
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "https://atom.io/packages/language-kaoscript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaoscript/atom-language.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaoscript/atom-language/issues"
+  }
 }
