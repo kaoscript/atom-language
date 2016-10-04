@@ -1,0 +1,67 @@
+'.source.ks':
+	'class':
+		'prefix': 'class'
+		'body': 'class ${1:className} {\n\t$1($2) {\n\t\t$3\n\t}\n}'
+	'do while':
+		'prefix': 'do'
+		'body': 'do {\n\t$2\n}\nwhile ${1:true}'
+	'do until':
+		'prefix': 'dou'
+		'body': 'do {\n\t$2\n}\nuntil ${1:false}'
+	'enum':
+		'prefix': 'enum'
+		'body': 'enum ${1:enumName} {\n\t$2\n}'
+	'if':
+		'prefix': 'if'
+		'body': 'if ${1:true} {\n\t$2\n}'
+	'if … else':
+		'prefix': 'ife'
+		'body': 'if ${1:true} {\n\t$2\n}\nelse {\n\t$3\n}'
+	'else':
+		'prefix': 'else'
+		'body': 'else {\n\t$1\n}'
+	'else if':
+		'prefix': 'elseif'
+		'body': 'else if ${1:true} {\n\t$2\n}'
+	'for from/til':
+		'prefix': 'fortil'
+		'body': 'for ${1:variable} from ${2} til ${3} {\n\t$4\n}'
+	'for from/to':
+		'prefix': 'forto'
+		'body': 'for ${1:variable} from ${2} to ${3} {\n\t$4\n}'
+	'for in':
+		'prefix': 'forin'
+		'body': 'for ${1:variable} in ${2} {\n\t$3\n}'
+	'for of':
+		'prefix': 'forof'
+		'body': 'for ${1:variable} of ${2} {\n\t$3\n}'
+	'function':
+		'prefix': 'fun'
+		'body': 'func ${1:functionName}($2) {\n\t$3\n}'
+	'anonymous function':
+		'prefix': 'f'
+		'body': 'func($1) {\n\t$2\n}'
+	'log':
+		'prefix': 'log'
+		'body': 'console.log($1)'
+	'warn':
+		'prefix': 'warn'
+		'body': 'console.warn($1)'
+	'error':
+		'prefix': 'error'
+		'body': 'console.error($1)'
+	'try':
+		'prefix': 'try'
+		'body': 'try {\n\t$1\n}'
+	'try catch':
+		'prefix': 'tryc'
+		'body': 'try {\n\t$1\n} catch ${2:error} {\n\t$3\n}'
+	'try finally':
+		'prefix': 'tryf'
+		'body': 'try {\n\t$1\n} finally {\n\t$3\n}'
+	'until':
+		'prefix': 'until'
+		'body': 'until ${1:true} {\n\t$2\n}'
+	'while':
+		'prefix': 'while'
+		'body': 'while ${1:true} {\n\t$2\n}'
