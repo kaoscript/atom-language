@@ -15,10 +15,14 @@
   "homepage": "https://atom.io/packages/language-kaoscript",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kaoscript/atom-language.git"
+    "url": "https://github.com/kaoscript/highlight-atom.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kaoscript/atom-language/issues"
+    "url": "https://github.com/kaoscript/highlight-atom/issues"
+  },
+  "author": {
+    "name": "Baptiste Augrain",
+    "email": "daiyam@zokugun.org"
   }
 }
